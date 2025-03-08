@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Regex Matcher Tool</title>
+</head>
+<body>
+    <h1>Regex Matcher Tool</h1>
+    <form action="/regex_results" method="post">
+        <label>Test String:</label><br>
+        <textarea name="test_string" rows="4" cols="50"></textarea><br><br>
+
+        <label>Regex Pattern:</label><br>
+        <input type="text" name="regex_pattern"><br><br>
+
+        <button type="submit">Find Matches</button>
+    </form>
+    <h2>Validate Email:</h2>
+    <form action="/validate_email" method="post">
+        <label>Email:</label>
+        <input type="text" name="email">
+        <button type="submit">Validate Email</button>
+    </form>
+    <br>
+    <a href="/">Back to Home</a>
+</body>
+</html>
